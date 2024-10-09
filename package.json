@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "@nestjs/config": "^3.2.3",
+    "@nestjs/schedule": "^4.1.1",
+    "@nestjs/swagger": "^7.4.2",
+    "@nestjs/typeorm": "^10.0.2",
+    "axios": "^1.7.7",
+    "nodemailer": "^6.9.15",
+    "pg": "^8.13.0",
+    "typeorm": "^0.3.20"
+  },
+  "name": "blockchain_price_tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@nestjs/config": "^3.2.3",
+    "@nestjs/schedule": "^4.1.1",
+    "@nestjs/swagger": "^7.4.2",
+    "@nestjs/typeorm": "^10.0.2",
+    "axios": "^1.7.7",
+    "nodemailer": "^6.9.15",
+    "pg": "^8.13.0",
+    "typeorm": "^0.3.20",
+    "@nestjs/cli": "^9.0.0",
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "npx nest start",
+    "start:dev": "npx nest start --watch",
+    "start:debug": "npx nest start --debug --watch",
+    "start:prod": "node dist/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
